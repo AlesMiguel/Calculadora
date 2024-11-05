@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* { /* Universal */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+#nome-id {}    
+
+body { 
+    width: 100vw;
+    height: 100vh;
+
+    color: #FFF;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calculadora {
+    width: 250px;
+    height: 290px;
+
+    margin-top: 20px;
+    margin-left: 850px;
+
+    border-radius: 20px;
+    background-color: #0e0791; 
+}
+
+.visor {
+    height: 30px;
+
+    padding-top: 35px;
+    text-align: center;
+}
+
+.visor div {
+    width: 180px;
+    height: 25px;
+
+    margin-left: 35px;
+
+    border-radius: 9px;
+
+    content: '';
+    color: transparent;
+    background-color: #FFF;
+}
+
+.keyboard {
+    width: 100%;
+    
+    margin-top: 80px;
+    padding-left: 65px;
+}
+
+.keyboard .row {
+    margin: 5px;
+}
+
+.keyboard .row button {
+    width: 35px;
+    height: 35px;
+
+    border: none;
+    border-radius: 20px;
+
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s background-color ease;
+}
+
+
+.keyboard .row button:hover {
+    color: #FFF;
+    background-color: #dedcaa;
+}
